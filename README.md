@@ -5,7 +5,7 @@ This project is a by product of Learning React and sourvenir of productivity, Co
 - Props or Properties
 - State
 
-![alt text](screenshot.png, "Completed Application")
+![alt text](screenshot.png "Completed Application")
 
 ### Technologies Covered
 - [React](https://reactjs.org) - A Javascript library for building user interfaces
