@@ -1,15 +1,14 @@
-const name = 'Godwin';
-const title = 'My First React Element';
-const desc = 'I just learned how to create a React node and render it into the DOM';
+const Header = () => {
+    return (
+        <header>
+            <h1>Scoreboard</h1>
+            <span className="stats">Players 1</span>
+        </header>
+    );
+}
 
-const header = (
-    <header>
-        <h1>My name is { name } and this is { title }</h1>
-        <p>{ desc }</p>
-    </header>
-);
 
 ReactDOM.render(
-    header,
+    <Header /> ,
     document.getElementById('root')
 );
