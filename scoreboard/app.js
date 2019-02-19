@@ -1,0 +1,7 @@
+const title = React.createElement(
+    'h1',
+    { id: 'main-title', title: 'This is my first title' },
+    'My First React Element'
+);
+
+console.log(title);
